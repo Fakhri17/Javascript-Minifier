@@ -20,13 +20,13 @@ def ascii():
                                          
 
 
-		Thx To Ardho
-		go follow Ig
-		https://instagram.com/ardho.ainullah
+Thx To Ardho
+go follow Ig
+https://instagram.com/ardho.ainullah
 
-		Support by me
-		Fakhri Alauddin
-		https://instagram.com/fakhrialauddin13
+Support by 
+Fakhri Alauddin
+https://instagram.com/fakhrialauddin13
 
 """)
 
@@ -34,20 +34,20 @@ def ascii():
 ascii()
 
 try:
-    js_file = input("==> Masukan File (.js) : ")
+    js_file = input("==> Masukkan File (/path/file.js) : ")
     with open(js_file, 'r') as c:
          js = c.read()
 except FileNotFoundError:
-       sys.exit("[*] file not found")
+       sys.exit("==> File Tidak Ditemukan")
 
 payload = {'input': js}
 url = 'https://javascript-minifier.com/raw'
 print("Requesting mini-me of {}. . .".format(c.name))
 result = requests.post(url, payload).text
 
-rename = input("[*] rename this file? default file.min.js (y/n) : ")
+rename = input("==> Mau Ganti Nama File? (default:file.min.js) (y/n) : ")
 if rename.upper() == "Y":
-   named = input("[*] new file name : ")
+   named = input("==> Nama File Baru (ex: script.min.js) : ")
 elif rename.upper() == "N":
       named = "file.min.js"
 else:
