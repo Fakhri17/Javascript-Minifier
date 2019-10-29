@@ -11,8 +11,9 @@ example :
 From [javascript-minifier](https://javascript-minifier.com/)
 
 ## Thanks
-Ardho Ainullah to help me create this tools [IG](https://instagram.com/ardho.ainullah)
-My [IG](https://instagram.com/fakhrialauddin13)
+Ardho Ainullah to help me create this tools [Instagram](https://instagram.com/ardho.ainullah)
+
+My [Instagram](https://instagram.com/fakhrialauddin13)
 
 ## Usage
 > - pkg install python
