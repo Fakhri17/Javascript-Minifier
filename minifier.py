@@ -6,7 +6,7 @@ def ascii():
     print("""
 
 
-   	_                                      _         _   
+   	 _                                       _         _   
     | |  __ _ __   __ __ _  ___   ___  _ __ (_) _ __  | |_ 
  _  | | / _` |\ \ / // _` |/ __| / __|| '__|| || '_ \ | __|
 | |_| || (_| | \ V /| (_| |\__ \| (__ | |   | || |_) || |_ 
@@ -49,7 +49,7 @@ rename = input("==> Mau Ganti Nama File? (default:file.min.js) (y/n) : ")
 if rename.upper() == "Y":
    named = input("==> Nama File Baru (ex: script.min.js) : ")
 elif rename.upper() == "N":
-       named = "%s.min"%(str(c.name))
+      named = "file.min.js"
 else:
      print ("[!] option false");sys.exit()
 
