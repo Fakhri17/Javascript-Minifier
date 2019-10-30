@@ -49,7 +49,7 @@ rename = input("==> Mau Ganti Nama File? (default:file.min.js) (y/n) : ")
 if rename.upper() == "Y":
    named = input("==> Nama File Baru (ex: script.min.js) : ")
 elif rename.upper() == "N":
-      named = "file.min.js"
+       named = "%s.min"%(str(c.name))
 else:
      print ("[!] option false");sys.exit()
 
